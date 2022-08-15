@@ -1,0 +1,33 @@
+/*import는 로딩하는 데 오래걸림 */
+
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+body {
+    font-family: 'Jeju Gothic', sans-serif;
+}
+
+h1, .t1 {
+    text-align: center;
+    padding-bottom: 5px;
+    margin: 15px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+ol{
+
+    padding-top: 10px;
+    line-height: 2;
+    margin:0%;
+}
+
+.c2 {
+padding-top: 10px;
+}
+
+img {
+    width: 70%;
+}
